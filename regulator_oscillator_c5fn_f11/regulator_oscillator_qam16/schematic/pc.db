@@ -1,0 +1,68 @@
+#
+regulator_oscillator_c5fn_f11 photodiode_4_LVS symbol
+I51
+I50
+#
+regulator_oscillator_c5fn_f11 ring_osc_5_LVS symbol
+I42
+I46
+#
+regulator_oscillator_c5fn_f11 rf_rectifier_LVS symbol
+I41
+#
+regulator_oscillator_c5fn_f11 decoder16_qam16 symbol
+I33
+#
+regulator_oscillator_c5fn_f11 regulator_LVS symbol
+I32
+#
+regulator_oscillator_c5fn_f11 rc_clamp_ESD_LVS symbol
+I43
+I47
+I29
+I40
+I34
+I30
+#
+regulator_oscillator_c5fn_f11 diode_ESD_LVS symbol
+I45
+I44
+I39
+I38
+I28
+I36
+I49
+I37
+I35
+I31
+#
+regulator_oscillator_c5fn_f11 bandgap_LVS symbol
+I27
+#ISCELL
+basic ipin symbol
+PIN26
+PIN30
+PIN34
+PIN32
+PIN36
+PIN31
+PIN25
+PIN20
+PIN17
+PIN19
+PIN23
+PIN24
+PIN22
+PIN28
+PIN21
+PIN27
+PIN18
+#ISCELL
+basic opin symbol
+PIN29
+PIN37
+PIN14
+PIN15
+PIN16
+PIN33
+PIN13

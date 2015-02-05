@@ -1,0 +1,19 @@
+#
+regulator_oscillator_c5fn_f11 qam16_modulator_LVS symbol
+I3
+#
+regulator_oscillator_c5fn_f11 decoder16_buf_LVS symbol
+I1
+#ISCELL
+basic ipin symbol
+PIN4
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN6
+#ISCELL
+basic iopin symbolr
+PIN7

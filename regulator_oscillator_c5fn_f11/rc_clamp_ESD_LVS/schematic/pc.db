@@ -1,0 +1,23 @@
+#
+amis500cxatxx hipor symbol
+R0
+#
+amis500cxatxx anmv symbol
+M1
+#
+amis500cxatxx enm symbol
+MN13
+MN1
+MN14
+MN10
+#
+amis500cxatxx epm symbol
+MP8
+MP12
+MP11
+#ISCELL
+basic iopin symbolr
+PIN2
+#ISCELL
+analogLib gnd symbol
+I0

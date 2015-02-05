@@ -1,0 +1,38 @@
+#
+ahdlLib opamp symbol
+I85
+#
+ahdlLib sampler symbol
+I28
+#
+analogLib vdc symbol
+V27
+V26
+V6
+V25
+#
+analogLib vpulse symbol
+V0
+#
+ahdlLib comparator symbol
+I26
+#
+ahdlLib sah_ideal symbol
+I9
+#
+analogLib cap symbol
+C14
+#
+analogLib res symbol
+R23
+R22
+#ISCELL
+analogLib gnd symbol
+I86
+I27
+I12
+I89
+I4
+#ISCELL
+analogLib vdd symbol
+I88

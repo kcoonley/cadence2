@@ -1,0 +1,38 @@
+#
+amis500cxatxx enm symbol
+MN0
+#
+amis500cxatxx anmv symbol
+M0
+#
+analogLib res symbol
+R0
+#
+analogLib vdc symbol
+V_r_enm
+V8
+V_r_nwrsb
+V_r_hipor
+V_c_ideal
+V_r_ideal
+V6
+V_c_pipc
+V_c_anmv
+#
+amis500cxatxx hipor symbol
+R3
+#
+amis500cxatxx nwrsb symbol
+R1
+#
+analogLib cap symbol
+C0
+#
+amis500cxatxx pipc symbol
+C1
+#
+analogLib vsin symbol
+V0
+#ISCELL
+analogLib gnd symbol
+I1

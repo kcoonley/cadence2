@@ -1,0 +1,29 @@
+#
+cont_deltasigma_c5fn_f09 adc_3_idac1_enable3 symbol
+I0
+#
+analogLib vpwl symbol
+V1
+#
+analogLib isin symbol
+I2
+#
+analogLib idc symbol
+I1
+#
+analogLib vpulse symbol
+V3
+#
+analogLib cap symbol
+C1
+C0
+#
+analogLib vdc symbol
+V2
+Vref
+Avdd
+V0
+#ISCELL
+analogLib gnd symbol
+I4
+I3

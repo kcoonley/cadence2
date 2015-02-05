@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      aa
+HostName                       cadstation2.ee.duke.edu
+ProcessIdentifier              8137
+ProcessCreationTime_UTC        1253873902
+ProcessCreationTime_Readable   Fri Sep 25 06:18:22 2009 EDT
+AppIdentifier                  /home/software/Cadence/IC5141/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_f09/dac/symbol/symbol.cdb
+TimeEditLocked                 Sat Sep 26 08:54:08 2009 EDT

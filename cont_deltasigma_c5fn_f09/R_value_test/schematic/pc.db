@@ -1,0 +1,14 @@
+#
+amis500cxatxx nwrsb symbol
+R2
+#
+amis500cxatxx hipor symbol
+R0
+#
+analogLib vdc symbol
+V1
+V0
+#ISCELL
+analogLib gnd symbol
+I9
+I1

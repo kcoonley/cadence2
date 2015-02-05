@@ -1,0 +1,28 @@
+#
+cont_deltasigma_c5fn_f09 adc_3_idac1_simple symbol
+I0
+#
+analogLib isin symbol
+I2
+#
+analogLib idc symbol
+I1
+#
+cont_deltasigma_c5fn_f09 my_sampler_N symbol
+I3
+#
+analogLib vpulse symbol
+Vclock
+#
+analogLib cap symbol
+C0
+#
+analogLib vdc symbol
+Vref
+Avdd
+V0
+Dvdd
+#ISCELL
+analogLib gnd symbol
+I4
+I5

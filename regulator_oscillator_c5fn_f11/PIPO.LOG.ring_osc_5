@@ -1,0 +1,120 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM Out
+Program   : @(#)$CDS: pipo.exe version 5.1.0 06/20/2007 02:15 (cicln03) $
+SubVersion: sub-version 5.10.41_USR5.90.69
+Started at: 20-Aug-2011  20:42:33
+User Name : aa
+Host Name : dsil6.ee.duke.edu
+Directory : /home/photinia/homes/aa/cadence2
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+     1. translating cellview (PDIFCT$$168570924 symbolic)
+     2. translating cellview (VIA$$168566828 symbolic)
+     3. translating cellview (VIA$$168565804 symbolic)
+     4. translating cellview (M1PLY$$168563756 symbolic)
+     5. translating cellview (epm$$169413676 layout)
+     6. translating cellview (epm$$169412652 layout)
+     7. translating cellview (epm$$169411628 layout)
+     8. translating cellview (epm$$169410604 layout)
+     9. translating cellview (epm$$169409580 layout)
+    10. translating cellview (epm$$169408556 layout)
+    11. translating cellview (NDIFCT$$169406508 symbolic)
+    12. translating cellview (NDIFCT$$169405484 symbolic)
+    13. translating cellview (NDIFCT$$169404460 symbolic)
+    14. translating cellview (enm$$169401388 layout)
+    15. translating cellview (enm$$169400364 layout)
+    16. translating cellview (enm$$169399340 layout)
+    17. translating cellview (enm$$169398316 layout)
+    18. translating cellview (enm$$170368044 layout)
+    19. translating cellview (enm$$170367020 layout)
+    20. translating cellview (NDIFCT$$169403436 symbolic)
+    21. translating cellview (PDIFCT$$168568876 symbolic)
+    22. translating cellview (ring_osc_5 layout)
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Nodes
+*************************************************************************************
+PDIFCT$$168570924/sy      19        0       0       0       0       0       0      0
+VIA$$168566828/symbo       4        0       0       0       0       0       0      0
+VIA$$168565804/symbo       3        0       0       0       0       0       0      0
+M1PLY$$168563756/sym       3        0       0       0       0       0       0      0
+epm$$169413676/layou     165        0       0       0      31       0       0      0
+epm$$169412652/layou      50        0       0       0      13       0       0      0
+epm$$169411628/layou      30        0       0       0       7       0       0      0
+epm$$169410604/layou      20        0       2       0       4       0       0      0
+epm$$169409580/layou      20        0       0       0       4       0       0      0
+epm$$169408556/layou      30        0       0       0       4       0       0      0
+NDIFCT$$169406508/sy       7        0       0       0       0       0       0      0
+NDIFCT$$169405484/sy      17        0       0       0       0       0       0      0
+NDIFCT$$169404460/sy      12        0       0       0       0       0       0      0
+enm$$169401388/layou     161        0       0       0      31       0       0      0
+enm$$169400364/layou      16        0       2       0       4       0       0      0
+enm$$169399340/layou      46        0       0       0      13       0       0      0
+enm$$169398316/layou      26        0       0       0       7       0       0      0
+enm$$170368044/layou      16        0       0       0       4       0       0      0
+enm$$170367020/layou      26        0       0       0       4       0       0      0
+NDIFCT$$169403436/sy       3        0       0       0       0       0       0      0
+PDIFCT$$168568876/sy       5        0       0       0       0       0       0      0
+ring_osc_5/layout         18        0     180       0       0     191       0      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths  Ellipses  Labels   Nodes
+-------------------------------------------------------------------------------------------
+TUB        drawing    1         0         15       0        0        0        0        0       
+M2         drawing    11        0         2        0        10       0        0        0       
+VIA        drawing    10        0         3        0        0        0        0        0       
+CNT        drawing    8         0         380      0        0        0        0        0       
+PPLS       drawing    6         0         8        0        0        0        0        0       
+NFIELD     drawing    3         0         15       0        0        0        0        0       
+DIF        drawing    2         0         94       0        0        0        0        0       
+NPLS       drawing    5         0         8        0        0        0        0        0       
+M1         drawing    9         0         59       0        153      0        52       0       
+POLY1      drawing    4         0         113      0        21       0        74       0       
+
+
+   Summary Of Objects
+
+------------------------
+     697 Rectangles
+       0 Polygons
+     184 Paths
+       0 Ellipses
+     126 Labels
+     191 Instances
+       0 Arrays
+      22 Cells
+       0 Nodes
+
+
+00:00:00 Elapsed time
+00:00:00 CPU time
+
+    4163 Kbytes of memory
+
+*** There were no error or warning message ***
+
+The setup file's contents :
+
+streamOutKeys = list(nil
+	'userSkillFile             ""
+	'layerTable                ""
+	'convertPin                "geometry"
+	'libVersion                "5.0"
+	'units                     "micron"
+	'scale                     0.001
+	'cellMapTable              ""
+	'caseSensitivity           "preserve"
+	'errFile                   "PIPO.LOG.ring_osc_5"
+	'outFile                   "/home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11/./ring_osc_5.gds"
+	'viewName                  "layout"
+	'primaryCell               "ring_osc_5"
+	'libName                   "regulator_oscillator_c5fn_f11"
+	'runDir                    "/home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11/./"
+)

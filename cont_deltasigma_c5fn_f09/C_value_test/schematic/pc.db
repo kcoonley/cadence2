@@ -1,0 +1,21 @@
+#
+analogLib vdc symbol
+V1
+#
+amis500cxatxx epm symbol
+MP0
+#
+amis500cxatxx enm symbol
+MN0
+#
+analogLib vsin symbol
+V0
+#
+amis500cxatxx pipc symbol
+C1
+#
+analogLib cap symbol
+C0
+#ISCELL
+analogLib gnd symbol
+I1

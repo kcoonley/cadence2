@@ -1,0 +1,89 @@
+#
+amis500cxatxx enm layout
+I1383
+I1384
+#
+regulator_oscillator_c5fn_f11 photodiode_64 layout
+I6
+#
+regulator_oscillator_c5fn_f11 decoder16_qam16 layout
+I8
+#
+regulator_oscillator_c5fn_f11 rc_clamp_ESD_LVS layout
+I9
+I7
+I1316
+I1344
+I1377
+I1380
+#
+regulator_oscillator_c5fn_f11 diode_ESD_LVS layout
+I1375
+I1317
+I1327
+I1313
+I1345
+I1352
+I1353
+I1356
+I1378
+I1379
+I1381
+I1382
+#
+regulator_oscillator_c5fn_f11 photodiode_4_LVS layout
+I1374
+I1368
+#
+regulator_oscillator_c5fn_f11 ring_osc_5 layout
+I4
+I1376
+#
+regulator_oscillator_c5fn_f11 regulator_LVS layout
+I3
+#
+regulator_oscillator_c5fn_f11 bandgap_LVS layout
+I2
+#
+regulator_oscillator_c5fn_f11 rf_rectifier_LVS layout
+I1
+#
+amis500cxapfx pad74 layout
+I680
+I685
+I1329
+I1314
+I693
+I694
+I1331
+I1322
+I1333
+I1336
+I1337
+I598
+I123
+I597
+I596
+I595
+I594
+I681
+I682
+I683
+I684
+I692
+I691
+I690
+I688
+I687
+I131
+I132
+I133
+I134
+I135
+I582
+#ISCELL
+amis500cxakxx VIA symbolic
+I1343
+I1342
+I1341
+I1346

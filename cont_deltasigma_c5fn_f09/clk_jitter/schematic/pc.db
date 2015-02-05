@@ -1,0 +1,6 @@
+#
+analogLib res symbol
+R0
+#ISCELL
+analogLib gnd symbol
+I0

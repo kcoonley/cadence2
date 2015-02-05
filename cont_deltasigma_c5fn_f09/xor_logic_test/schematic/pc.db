@@ -1,0 +1,26 @@
+#
+ahdlLib nor_gate symbol
+I9
+#
+cont_deltasigma_c5fn_f09 xor_tg_logic symbol
+I7
+#
+analogLib vdc symbol
+V1
+#
+analogLib cap symbol
+C0
+#
+analogLib vpulse symbol
+V0
+#
+cont_deltasigma_c5fn_f09 bit_stream_rand symbol
+I1
+#ISCELL
+analogLib vdd symbol
+I6
+#ISCELL
+analogLib gnd symbol
+I4
+I5
+I3

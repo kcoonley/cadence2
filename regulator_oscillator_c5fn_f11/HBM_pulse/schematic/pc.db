@@ -1,0 +1,17 @@
+#
+analogLib vdc symbol
+V0
+#
+analogLib ind symbol
+L0
+#
+analogLib cap symbol
+C2
+C1
+#
+analogLib res symbol
+R2
+R1
+#ISCELL
+analogLib gnd symbol
+I1

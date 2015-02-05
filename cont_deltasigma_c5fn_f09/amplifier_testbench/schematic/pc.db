@@ -1,0 +1,21 @@
+#
+cont_deltasigma_c5fn_f09 amplifier_lv symbol
+I11
+#
+analogLib cap symbol
+C0
+#
+analogLib idc symbol
+I6
+#
+analogLib vdc symbol
+V3
+V0
+V2
+#
+analogLib vsin symbol
+V1
+#ISCELL
+analogLib gnd symbol
+I3
+I5

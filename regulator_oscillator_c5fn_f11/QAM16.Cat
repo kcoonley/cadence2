@@ -1,0 +1,7 @@
+TDMCHECKPOINT="1.0"
+keepEmptyCategory type="unknown"
+regulator_oscillator_c5fn_f11/decoder16_plus_qam16_LVS type="cell"
+regulator_oscillator_c5fn_f11/decoder16_qam16 type="cell"
+regulator_oscillator_c5fn_f11/qam16_modulator type="cell"
+regulator_oscillator_c5fn_f11/qam16_modulator_LVS type="cell"
+regulator_oscillator_c5fn_f11/qam16_modulator_v3 type="cell"

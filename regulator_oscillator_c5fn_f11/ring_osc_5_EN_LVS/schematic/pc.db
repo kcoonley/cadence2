@@ -1,0 +1,54 @@
+#
+amis500cxatxx enm symbol
+MN3
+MN4
+MN1
+MN5
+MN6
+MN2
+MN30
+MN23
+MN7
+MN21
+MN14
+MN8
+MN13
+MN17
+MN18
+MN16
+MN9
+MN33
+MN20
+#
+amis500cxatxx epm symbol
+MP17
+MP26
+MP27
+MP21
+MP22
+MP5
+MP37
+MP6
+MP16
+MP13
+MP0
+MP4
+MP23
+MP19
+MP7
+MP20
+MP35
+MP24
+MP25
+#ISCELL
+basic ipin symbol
+PIN10
+PIN12
+#ISCELL
+analogLib gnd symbol
+I0
+I1
+I2
+#ISCELL
+basic opin symbol
+PIN11

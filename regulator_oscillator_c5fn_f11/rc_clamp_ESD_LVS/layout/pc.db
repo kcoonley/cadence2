@@ -1,0 +1,45 @@
+#
+amis500cxatxx enm layout
+I6
+I4
+I5
+I10
+#
+amis500cxatxx anmv layout
+I2
+#
+amis500cxatxx hipor layout
+I1
+#
+amis500cxatxx epm layout
+I9
+I8
+I7
+#ISCELL
+amis500cxakxx NDIFCT symbolic
+I29
+I28
+I30
+I31
+I25
+I26
+I11
+#ISCELL
+amis500cxakxx PDIFCT symbolic
+I59
+I61
+I35
+I34
+I33
+I58
+I14
+I32
+#ISCELL
+amis500cxakxx M1PLY symbolic
+I37
+I36
+I17
+#ISCELL
+amis500cxakxx VIA symbolic
+I60
+I22

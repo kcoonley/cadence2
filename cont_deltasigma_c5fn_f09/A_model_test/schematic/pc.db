@@ -1,0 +1,16 @@
+#
+analogLib vdc symbol
+V1
+#
+analogLib cap symbol
+C0
+#
+analogLib vpulse symbol
+V0
+#
+cont_deltasigma_c5fn_f09 A_model symbol
+I0
+#ISCELL
+analogLib gnd symbol
+I1
+I2

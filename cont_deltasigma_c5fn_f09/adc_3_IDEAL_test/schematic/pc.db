@@ -1,0 +1,23 @@
+#
+cont_deltasigma_c5fn_f09 adc_3_IDEAL_comparator symbol
+I0
+#
+analogLib isin symbol
+I2
+#
+analogLib idc symbol
+I1
+#
+cont_deltasigma_c5fn_f09 my_sampler_N symbol
+I3
+#
+analogLib vpulse symbol
+Vclock
+#
+analogLib vdc symbol
+V0
+Vref
+Avdd
+#ISCELL
+analogLib gnd symbol
+I4

@@ -1,0 +1,87 @@
+#
+amis500cxatxx hipor layout
+I103
+I81
+I102
+I80
+I14
+I68
+I69
+#
+amis500cxatxx schd layout
+I50
+I85
+I41
+I40
+I39
+I33
+I32
+I31
+I26
+I25
+I24
+I13
+#
+amis500cxapmx pad74 layout
+I8
+I2
+I5
+I3
+I6
+#
+amis500cxatxx pipc layout
+I20
+I19
+I18
+I17
+I12
+I11
+I9
+I7
+I10
+I4
+#
+amis500cxatxx enm layout
+I96
+I97
+I98
+I92
+I93
+I94
+I95
+I90
+I77
+I54
+I65
+I64
+I63
+I1
+#ISCELL
+amis500cxakxx VIA symbolic
+I104
+I100
+I84
+I48
+I83
+I45
+I43
+I42
+I37
+I36
+I34
+I30
+I29
+I28
+I22
+I21
+I0
+#ISCELL
+amis500cxakxx PDIFCT symbolic
+I132
+I133
+I53
+I91
+I134
+I56
+I88
+I87

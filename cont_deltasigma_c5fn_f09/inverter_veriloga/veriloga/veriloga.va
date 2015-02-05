@@ -1,0 +1,53 @@
+//VerilogA for continuous_deltasigma_c5fn, inverter_veriloga, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+
+// My first Verilog-A model to simulate complementary clocks
+
+
+
+module inverter_veriloga(vin, vout);
+input vin;
+output vout;
+electrical vin, vout;
+parameter real vlogic_high = 0;
+parameter real vlogic_low = 5;
+parameter real vtrans = 2.5;
+parameter real tdel = 1n from (0:inf);
+parameter real trise = 10n from (0:inf);
+parameter real tfall = 10n from (0:inf);
+
+real vout_val;
+integer logic1;
+
+analog begin
+
+@ ( initial_step) begin
+	if (vlogic_high < vlogic_low) begin
+		$display("Range specification error: vlogic_high = (%E) less than vlogic_low = (%E). \n", vlogic_high, vlogic_low);
+		$finish;
+	end
+	if (vtrans > vlogic_high || vtrans < vlogic_low) begin
+		$display("Incosistent $threshold specification w/ logic family. \n");
+	end
+end
+
+logic1 = V(vin) > vtrans;
+
+@ (cross(V(vin) - vtrans, 1)) logic1 = 1;
+@ (cross(V(vin) - vtrans, -1)) logic1 = 0;
+
+
+// define inverter logic function
+
+vout_val = (!(logic1)) ? vlogic_high : vlogic_low;
+
+V(vout) <+ transition(vout_val, tdel, trise, tfall);
+
+end
+
+
+
+endmodule

@@ -1,0 +1,26 @@
+#
+analogLib vpulse symbol
+V1
+#
+analogLib vdc symbol
+V0
+#
+analogLib cap symbol
+C0
+#
+amis500cxatxx enm symbol
+MN38
+#
+amis500cxatxx epm symbol
+MP37
+#ISCELL
+analogLib gnd symbol
+I13
+I3
+#ISCELL
+analogLib vdd symbol
+I15
+I14
+#ISCELL
+basic opin symbol
+PIN0

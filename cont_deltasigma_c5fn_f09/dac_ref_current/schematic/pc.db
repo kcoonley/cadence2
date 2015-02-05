@@ -1,0 +1,75 @@
+#
+amis500cxatxx nwrsb symbol
+R0
+#
+amis500cxatxx pipc symbol
+C2
+#
+amis500cxatxx vpb4u symbol
+Q6
+#
+amis500cxatxx vpb20u symbol
+Q11
+Q9
+Q10
+#
+analogLib idc symbol
+I3
+#
+amis500cxatxx hipor symbol
+R17
+#
+analogLib vdc symbol
+V9
+V4
+V52
+V53
+V54
+V55
+V57
+#
+amis500cxatxx epm symbol
+MP92
+MP89
+MP101
+MP100
+MP98
+MP97
+MP90
+MP96
+MP95
+MP91
+MP93
+#
+amis500cxatxx enm symbol
+MN121
+MN119
+MN74
+MN115
+MN111
+MN120
+MN117
+MN114
+MN75
+MN76
+MN116
+MN77
+MN118
+MN113
+MN112
+MN78
+MN73
+#ISCELL
+analogLib gnd symbol
+I37
+I36
+I8
+I35
+I34
+I33
+#ISCELL
+basic ipin symbol
+PIN16
+#ISCELL
+basic iopin symbolr
+PIN1

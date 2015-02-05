@@ -1,0 +1,16 @@
+#
+amis500cxatxx vpb4u symbol
+Q0
+Q2
+#
+amis500cxatxx schd symbol
+D0
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN2
+#ISCELL
+analogLib gnd symbol
+I2

@@ -1,0 +1,20 @@
+#
+pll_c5fn_f10 ring_osc_5 symbol
+I4
+#
+analogLib cap symbol
+C0
+C1
+#
+analogLib vdc symbol
+V2
+V0
+V3
+V1
+#
+analogLib idc symbol
+I1
+#ISCELL
+analogLib gnd symbol
+I0
+I2

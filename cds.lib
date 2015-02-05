@@ -1,0 +1,108 @@
+
+-------- NCSU Kit --------------------------------------
+
+--INCLUDE /home/software/Cadence/IC5141/local/cdssetup/cds.lib
+--DEFINE basic /home/software/Cadence/IC5141/local/lib/basic
+DEFINE NCSU_Analog_Parts /home/software/Cadence/IC5141/local/lib/NCSU_Analog_Parts
+DEFINE NCSU_Digital_Parts /home/software/Cadence/IC5141/local/lib/NCSU_Digital_Parts
+DEFINE NCSU_Sheets_8ths /home/software/Cadence/IC5141/local/lib/NCSU_Sheets_8ths
+DEFINE NCSU_TechLib_ami16 /home/software/Cadence/IC5141/local/lib/NCSU_TechLib_ami16
+DEFINE NCSU_TechLib_ami06 /home/software/Cadence/IC5141/local/lib/NCSU_TechLib_ami06
+
+
+
+
+------- IC5141 CDS basic ---------------------
+
+--UNDEFINE basic
+DEFINE basic 	     $CDS/tools/dfII/etc/cdslib/basic
+DEFINE analogLib     $CDS/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE functional    $CDS/tools/dfII/etc/cdslib/artist/functional
+DEFINE sbaLib        $CDS/tools/dfII/etc/cdslib/artist/sbaLib
+DEFINE US_8ths       $CDS/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE sample        $CDS/tools/dfII/samples/cdslib/sample
+
+--------------- IC5141 CDS samples ---------------------------
+
+
+DEFINE ahdlLib        $CDS/tools/dfII/samples/artist/ahdlLib 
+DEFINE rfLib          $CDS/tools/dfII/samples/artist/rfLib
+DEFINE rfExamples     $CDS/tools/dfII/samples/artist/rfExamples
+DEFINE passiveLib     $CDS/tools/dfII/samples/artist/passiveLib
+DEFINE filterLib      $CDS/tools/dfII/samples/artist/optimization/filterLib
+DEFINE ADCLib 	      /home/software/Cadence/IC5141/tools/dfII/samples/artist/mixSig/adc/ADCLib
+
+
+-------  AMIS C5FN --------------
+
+--INCLUDE /home/photinia/homes/aa/PDK/AMIS_C5FN/lib/amis500cx/physical/dfii/cds.lib
+DEFINE amis500cxakxx $AMIS/lib/amis500cx/physical/dfii/amis500cxakxx/current
+DEFINE amis500cxapfx $AMIS/lib/amis500cx/physical/dfii/amis500cxapfx/current
+DEFINE amis500cxapmx $AMIS/lib/amis500cx/physical/dfii/amis500cxapmx/current
+DEFINE amis500cxascb $AMIS/lib/amis500cx/physical/dfii/amis500cxascb/current
+DEFINE amis500cxascm $AMIS/lib/amis500cx/physical/dfii/amis500cxascm/current
+DEFINE amis500cxatxx $AMIS/lib/amis500cx/physical/dfii/amis500cxatxx/current
+
+--INCLUDE $AMIS/lib/tech_indep/dfii/cds.lib
+DEFINE amisCommonLib  $AMIS/lib/tech_indep/physical/dfii/amisCommonLib/current
+DEFINE amisConnectLib $AMIS/lib/tech_indep/physical/dfii/amisConnectLib/current
+DEFINE amisSheetLib   $AMIS/lib/tech_indep/physical/dfii/amisSheetLib/current
+
+
+
+---- MY DESIGN LIBRARIES -----
+
+#Removed by ddDeleteObj: DEFINE continuous_deltasigma_c5fn /home/photinia/homes/aa/cadence2/continuous_deltasigma_c5fn
+#Removed by ddDeleteObj: DEFINE rfpower_rectifier_c5fn /home/photinia/homes/aa/cadence2/rfpower_rectifier_c5fn
+#Removed by ddDeleteObj: DEFINE rfpower_import_gds /home/photinia/homes/aa/cadence2/rfpower_import_gds
+#Removed by ddDeleteObj: DEFINE rfpower_import_gds /home/photinia/homes/aa/cadence2/rfpower_import_gds
+#Removed by ddDeleteObj: DEFINE rfpower_import_gds2 /home/photinia/homes/aa/cadence2/rfpower_import_gds2
+#Removed by ddDeleteObj: DEFINE rfpower_import_cif /home/photinia/homes/aa/cadence2/rfpower_import_cif
+#Removed by ddDeleteObj: DEFINE rfpower_import_cif2 /home/photinia/homes/aa/cadence2/rfpower_import_cif2
+#Removed by ddDeleteObj: DEFINE rfpower_import_gds /home/photinia/homes/aa/cadence2/rfpower_import_gds
+#Removed by ddDeleteObj: DEFINE test_import_gds /home/photinia/homes/aa/cadence2/test_import_gds
+#Removed by ddDeleteObj: DEFINE rfpower_chip_mosis_import_gds /home/photinia/homes/aa/cadence2/rfpower_chip_mosis_import_gds
+#Removed by ddDeleteObj: DEFINE rfpower_chip_mosis_gds /home/photinia/homes/aa/cadence2/rfpower_chip_mosis_gds
+#Removed by ddDeleteObj: DEFINE rfpower_regulator_c5fn /home/photinia/homes/aa/cadence2/rfpower_regulator_c5fn
+#Removed by ddDeleteObj: DEFINE voltage_regulator_c5fn /home/photinia/homes/aa/cadence2/voltage_regulator_c5fn
+#Removed by ddDeleteObj: DEFINE sar_adc_sensor /home/photinia/homes/aa/cadence2/sar_adc_sensor
+DEFINE cont_deltasigma_c5fn_f09 /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_f09
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_model /home/photinia/homes/aa/cadence2/cont_deltasigma_model
+DEFINE rfpower_rectifier_c5fn_s09 /home/photinia/homes/aa/cadence2/rfpower_rectifier_c5fn_s09
+DEFINE rfpower_chip_s09_gds /home/photinia/homes/aa/cadence2/rfpower_chip_s09_gds
+DEFINE cont_deltasigma_model_bck /home/photinia/homes/aa/cadence2/cont_deltasigma_model_bck
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_model /home/photinia/homes/aa/cadence2/cont_deltasigma_model
+DEFINE voltage_regulator_c5fn_f09 /home/photinia/homes/aa/cadence2/voltage_regulator_c5fn_f09
+#Removed by ddDeleteObj: DEFINE rfpower_chip_f09_gds /home/photinia/homes/aa/cadence2/rfpower_chip_f09_gds
+DEFINE rfpower_chip_f09_gds /home/photinia/homes/aa/cadence2/rfpower_chip_f09_gds
+#Removed by ddDeleteObj: DEFINE pll_telemetry_c5fn_f10 /home/photinia/homes/aa/cadence2/pll_telemetry_c5fn_f10
+DEFINE pll_c5fn_f10 /home/photinia/homes/aa/cadence2/pll_c5fn_f10
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_GDS /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_GDS
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_GDS /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_GDS
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_gds /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_gds
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_gds /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_gds
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_f09_gds /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_f09_gds
+#Removed by ddDeleteObj: DEFINE cont_deltasigma_c5fn_f09_adc_gds /home/photinia/homes/aa/cadence2/cont_deltasigma_c5fn_f09_adc_gds
+DEFINE rfid_adc_chip_f10_gds /home/photinia/homes/aa/cadence2/rfid_adc_chip_f10_gds
+DEFINE adc_chip_f10_gds /home/photinia/homes/aa/cadence2/adc_chip_f10_gds
+DEFINE dc_dc_converter_tsmc0#2e40 /home/photinia/homes/aa/cadence2/dc_dc_converter_tsmc0.40
+DEFINE NCSU_TechLib_tsmc04_4M2P /home/software/Cadence/IC5141/local/lib/NCSU_TechLib_tsmc04_4M2P
+#Removed by ddDeleteObj: DEFINE Low_power_SAR /home/photinia/homes/aa/cadence2/Low_power_SAR
+#Removed by ddDeleteObj: DEFINE llow_power_SAR /home/photinia/homes/aa/cadence2/llow_power_SAR
+#Removed by ddDeleteObj: DEFINE low_power_SAR /home/photinia/homes/aa/cadence2/low_power_SAR
+DEFINE low_power_SAR_adc /home/photinia/homes/aa/cadence2/low_power_SAR_adc
+DEFINE audio_amplifier /home/photinia/homes/aa/cadence2/audio_amplifier
+DEFINE power_regulator_c5fn_s11 /home/photinia/homes/aa/cadence2/power_regulator_c5fn_s11
+#Removed by ddDeleteObj: DEFINE test /home/photinia/homes/aa/cadence2/test
+#Removed by ddDeleteObj: DEFINE power_regulator_c5fn_s11_gds /home/photinia/homes/aa/cadence2/power_regulator_c5fn_s11_gds
+DEFINE power_regulator_c5fn_s11_gds /home/photinia/homes/aa/cadence2/power_regulator_c5fn_s11_gds
+DEFINE regulator_oscillator_c5fn_f11 /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11
+DEFINE switched_capacitor_filter_c5fn /home/photinia/homes/aa/cadence2/switched_capacitor_filter_c5fn
+#Removed by ddDeleteObj: DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+#Removed by ddDeleteObj: DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+#Removed by ddDeleteObj: DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+#Removed by ddDeleteObj: DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+#Removed by ddDeleteObj: DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+#Removed by ddDeleteObj: DEFINE test /home/photinia/homes/aa/cadence2/test
+#Removed by ddDeleteObj: DEFINE test2 /home/photinia/homes/aa/cadence2/test2
+DEFINE regulator_oscillator_c5fn_f11_gds /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds

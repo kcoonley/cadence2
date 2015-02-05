@@ -1,0 +1,63 @@
+#
+analogLib cap symbol
+C0
+#
+amis500cxatxx hipor symbol
+R0
+#
+analogLib vdc symbol
+Vbit3
+Vbit2
+Vbit4
+Vbit1
+#
+amis500cxatxx epm symbol
+MP17
+MP11
+MP9
+MP8
+MP7
+MP12
+MP13
+MP14
+MP10
+MP2
+MP1
+#
+amis500cxatxx enm symbol
+MN22
+MN23
+MN18
+MN19
+MN14
+MN11
+MN16
+MN15
+MN26
+MN20
+MN10
+MN6
+MN8
+MN7
+MN24
+MN25
+MN21
+MN12
+MN13
+MN9
+MN17
+MN3
+MN0
+#ISCELL
+analogLib gnd symbol
+I3
+#ISCELL
+basic opin symbol
+PIN0
+PIN1
+#ISCELL
+basic ipin symbol
+PIN2
+#ISCELL
+basic iopin symbolr
+PIN3

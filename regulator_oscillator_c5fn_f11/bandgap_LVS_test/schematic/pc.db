@@ -1,0 +1,13 @@
+#
+power_regulator_c5fn_s11 bandgap_LVS symbol
+I6
+#
+analogLib cap symbol
+C1
+#
+analogLib vdc symbol
+V6
+#ISCELL
+analogLib gnd symbol
+I0
+I1

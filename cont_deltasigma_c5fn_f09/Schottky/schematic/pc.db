@@ -1,0 +1,9 @@
+#
+analogLib vdc symbol
+V0
+#
+amis500cxatxx schd symbol
+D0
+#ISCELL
+analogLib gnd symbol
+I0

@@ -1,0 +1,44 @@
+#
+amis500cxatxx vpb4u symbol
+Q8
+Q7
+#
+amis500cxatxx vpb20u symbol
+Q3
+Q2
+Q1
+#
+amis500cxatxx hipor symbol
+R4
+R5
+#
+amis500cxatxx epm symbol
+MP21
+MP8
+MP11
+MP16
+MP17
+MP5
+MP18
+MP19
+MP20
+#
+amis500cxatxx enm symbol
+MN19
+MN17
+MN10
+MN11
+MN12
+MN13
+MN14
+MN15
+MN20
+#ISCELL
+analogLib gnd symbol
+I1
+#ISCELL
+basic ipin symbol
+PIN7
+#ISCELL
+basic opin symbol
+PIN3

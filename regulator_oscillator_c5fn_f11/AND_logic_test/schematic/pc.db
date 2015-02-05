@@ -1,0 +1,23 @@
+#
+regulator_oscillator_c5fn_f11 BIT_stream_rand symbol
+I11
+#
+regulator_oscillator_c5fn_f11 AND_tg_logic symbol
+I9
+#
+analogLib vdc symbol
+V1
+#
+analogLib cap symbol
+C0
+#
+analogLib vpulse symbol
+V0
+#ISCELL
+analogLib vdd symbol
+I6
+#ISCELL
+analogLib gnd symbol
+I5
+I4
+I3

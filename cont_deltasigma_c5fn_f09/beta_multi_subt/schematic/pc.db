@@ -1,0 +1,22 @@
+#
+analogLib vdc symbol
+V0
+#
+amis500cxatxx hipor symbol
+R0
+#
+amis500cxatxx epm symbol
+MP17
+MP20
+#
+amis500cxatxx enm symbol
+MN24
+MN16
+#ISCELL
+analogLib gnd symbol
+I19
+I16
+#ISCELL
+analogLib vdd symbol
+I20
+I18

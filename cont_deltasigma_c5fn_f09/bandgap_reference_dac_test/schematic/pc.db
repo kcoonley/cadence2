@@ -1,0 +1,19 @@
+#
+cont_deltasigma_c5fn_f09 bandgap_reference_dac3 symbol
+I0
+#
+analogLib cap symbol
+C0
+#
+analogLib vdc symbol
+V8
+V0
+V3
+V5
+V6
+V4
+V9
+#ISCELL
+analogLib gnd symbol
+I2
+I1

@@ -1,0 +1,7 @@
+TDMCHECKPOINT="1.0"
+keepEmptyCategory type="unknown"
+regulator_oscillator_c5fn_f11/Chip_Frame type="cell"
+regulator_oscillator_c5fn_f11/reg_osc_CHIP_layout type="cell"
+regulator_oscillator_c5fn_f11/regulator_oscillator_qam16 type="cell"
+regulator_oscillator_c5fn_f11/regulator_oscillator_qam16_LVS type="cell"
+regulator_oscillator_c5fn_f11/regulator_oscillator_qam16_MOSIS type="cell"

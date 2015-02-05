@@ -1,0 +1,50 @@
+// VerilogA for cont_deltasigma_c5fn_f09, bit_stream_rand, veriloga
+
+
+// Help from Verilog-A Reference Manual
+// cross function
+// timer function
+// ahdlLib Telecom rand_bit_stream
+// random function, 32-bit signed integer
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module bit_stream_rand(clk, vout);
+
+input clk;
+output vout;
+
+electrical clk;
+electrical vout;
+
+parameter real vlogic_high = 3;
+parameter real vlogic_low = 0;
+parameter integer seed = 21;
+parameter real logic_thresh = 1.5;
+parameter real tdel = 0 from [0:inf);
+parameter real trise = 1n from [0:inf);
+parameter real tfall = 1n from [0:inf);
+
+integer bit, iseed;
+real vout_val;
+
+analog begin
+
+@(initial_step) begin
+bit = 0;
+iseed = seed;
+vout_val = vlogic_low;
+end
+
+bit = abs($random(iseed)) & 1;
+
+@(cross(V(clk)-logic_thresh,  -1)) begin
+	vout_val = (vlogic_high - vlogic_low)*bit + vlogic_low;
+end
+
+V(vout) <+ transition(vout_val, tdel, trise, tfall); 
+
+
+end
+endmodule

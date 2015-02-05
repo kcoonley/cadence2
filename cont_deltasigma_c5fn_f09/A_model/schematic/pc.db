@@ -1,0 +1,19 @@
+#
+analogLib res symbol
+R2
+#
+analogLib vccs symbol
+G3
+#
+analogLib cap symbol
+C7
+#ISCELL
+analogLib gnd symbol
+I36
+#ISCELL
+basic ipin symbol
+PIN6
+PIN5
+#ISCELL
+basic opin symbol
+PIN0

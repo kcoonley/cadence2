@@ -1,0 +1,21 @@
+#
+amis500cxatxx enm symbol
+MN1
+MN0
+#
+analogLib vdc symbol
+Ival
+V2
+#
+amis500cxatxx epm symbol
+MP29
+MP25
+MP2
+#ISCELL
+analogLib gnd symbol
+I9
+I8
+#ISCELL
+analogLib vdd symbol
+I11
+I12

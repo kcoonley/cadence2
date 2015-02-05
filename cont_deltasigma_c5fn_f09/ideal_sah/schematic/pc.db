@@ -1,0 +1,14 @@
+#
+ahdlLib comparator symbol
+I26
+#
+ahdlLib sah_ideal symbol
+I9
+#ISCELL
+basic ipin symbol
+PIN6
+PIN5
+PIN3
+#ISCELL
+basic opin symbol
+PIN4

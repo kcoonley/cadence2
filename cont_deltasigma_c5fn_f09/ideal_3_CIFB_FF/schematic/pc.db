@@ -1,0 +1,54 @@
+#
+ahdlLib nor_gate symbol
+I17
+#
+analogLib vdc symbol
+V4
+V0
+V3
+V1
+V2
+#
+analogLib res symbol
+R3
+R6
+R2
+R5
+R4
+#
+analogLib vccs symbol
+G3
+G5
+G2
+G6
+G1
+G4
+G7
+G8
+#
+ahdlLib comparator symbol
+I26
+#
+analogLib cap symbol
+C7
+C9
+C2
+#
+ahdlLib sah_ideal symbol
+I9
+#ISCELL
+analogLib gnd symbol
+I18
+I4
+I6
+I36
+I48
+I46
+#ISCELL
+basic ipin symbol
+PIN5
+PIN1
+PIN3
+#ISCELL
+basic opin symbol
+PIN4

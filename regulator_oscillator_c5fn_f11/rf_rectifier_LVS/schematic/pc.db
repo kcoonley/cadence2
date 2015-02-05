@@ -1,0 +1,36 @@
+#
+amis500cxatxx enm symbol
+MN5
+#
+amis500cxatxx pipc symbol
+C15
+C10
+C12
+C11
+C8
+C9
+C14
+C13
+#
+amis500cxatxx schd symbol
+D7
+D2
+D5
+D1
+D6
+D4
+D3
+#ISCELL
+analogLib gnd symbol
+I3
+I2
+I1
+#ISCELL
+basic opin symbol
+PIN1
+PIN0
+#ISCELL
+basic ipin symbol
+PIN6
+PIN3
+PIN2

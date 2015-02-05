@@ -1,0 +1,24 @@
+#
+cont_deltasigma_c5fn_f09 adc_3 symbol
+I8
+#
+voltage_regulator_c5fn_f09 dickson_schd_N_caplay symbol
+I7
+#
+voltage_regulator_c5fn_f09 shunt_regulator_2 symbol
+I6
+#
+voltage_regulator_c5fn_f09 limiter symbol
+I5
+#
+voltage_regulator_c5fn_f09 bandgap_beta_Vthermal symbol
+I4
+#
+cont_deltasigma_c5fn_f09 dac_lv symbol
+I3
+#
+cont_deltasigma_c5fn_f09 xor_aoi_logic symbol
+I2
+#
+cont_deltasigma_c5fn_f09 ring_osc_9_lv_enable symbol
+I1

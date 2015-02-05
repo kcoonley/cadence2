@@ -1,0 +1,28 @@
+#
+cont_deltasigma_c5fn_f09 bandgap_regulator_LVS symbol
+I5
+#
+analogLib idc symbol
+I4
+#
+analogLib cap symbol
+C0
+C1
+#
+analogLib vdc symbol
+V5
+V4
+V6
+V9
+V3
+V0
+V10
+V8
+V1
+V2
+V7
+#ISCELL
+analogLib gnd symbol
+I2
+I0
+I1

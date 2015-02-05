@@ -1,0 +1,68 @@
+#
+cont_deltasigma_model_bck my_N_sampler symbol
+I98
+#
+analogLib vpwl symbol
+V1
+#
+analogLib switch symbol
+W3
+W2
+#
+analogLib vccs symbol
+G4
+G7
+G6
+G8
+#
+analogLib vdc symbol
+V22
+V25
+V26
+V20
+V11
+V13
+V14
+V15
+V12
+V6
+#
+analogLib vpulse symbol
+V4
+V0
+#
+ahdlLib comparator symbol
+I26
+#
+ahdlLib sah_ideal symbol
+I9
+#
+analogLib cap symbol
+C9
+C7
+#
+analogLib res symbol
+R19
+R20
+R14
+R21
+R3
+#ISCELL
+analogLib gnd symbol
+I81
+I75
+I89
+I87
+I46
+I48
+I86
+I36
+I52
+I27
+I11
+I12
+I4
+I77
+#ISCELL
+analogLib vdd symbol
+I76

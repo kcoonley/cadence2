@@ -1,0 +1,21 @@
+#
+regulator_oscillator_c5fn_f11 diode_ESD_LVS symbol
+I2
+#
+analogLib vdc symbol
+V1
+V0
+#
+analogLib ind symbol
+L0
+#
+analogLib cap symbol
+C1
+C2
+#
+analogLib res symbol
+R1
+R2
+#ISCELL
+analogLib gnd symbol
+I1

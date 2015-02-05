@@ -1,0 +1,24 @@
+#
+analogLib idc symbol
+I3
+#
+analogLib ind symbol
+L0
+#
+analogLib vsin symbol
+V1
+#
+analogLib cap symbol
+C3
+C0
+C1
+#
+analogLib vdc symbol
+V0
+#
+cont_deltasigma_c5fn_f09 amplifier_FEEDBACK_stability symbol
+I0
+#ISCELL
+analogLib gnd symbol
+I2
+I1

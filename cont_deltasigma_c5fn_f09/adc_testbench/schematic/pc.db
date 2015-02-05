@@ -1,0 +1,32 @@
+#
+cont_deltasigma_c5fn_f09 adc_lp symbol
+I13
+#
+ahdlLib sampler symbol
+I28
+#
+analogLib vpulse symbol
+V0
+#
+analogLib idc symbol
+I9
+I10
+I4
+I5
+I6
+#
+analogLib cap symbol
+C2
+C3
+#
+analogLib vdc symbol
+V6
+V7
+V4
+V3
+V5
+#ISCELL
+analogLib gnd symbol
+I11
+I7
+I8

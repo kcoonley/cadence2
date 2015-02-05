@@ -1,0 +1,12 @@
+#
+analogLib vdc symbol
+V0
+#
+analogLib idc symbol
+I0
+#
+analogLib res symbol
+R2
+#ISCELL
+analogLib gnd symbol
+I36

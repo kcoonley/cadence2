@@ -1,0 +1,35 @@
+#
+cont_deltasigma_c5fn_f09 my_sampler_N symbol
+I19
+#
+analogLib ipwl symbol
+Iin_delta
+#
+cont_deltasigma_c5fn_f09 adc_reset symbol
+I16
+#
+analogLib vpulse symbol
+vreset_cap
+Vclock
+#
+analogLib idc symbol
+Iin_pd
+Ibias_amp
+Iref1
+Iref2
+#
+analogLib cap symbol
+Cload_p
+C3
+#
+analogLib vdc symbol
+Vref_amp
+Vref_comp
+Avdd
+Vin
+Dvdd
+#ISCELL
+analogLib gnd symbol
+I11
+I7
+I8

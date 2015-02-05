@@ -1,0 +1,21 @@
+#
+cont_deltasigma_c5fn_f09 ring_osc_5_LVS symbol
+I3
+#
+analogLib cap symbol
+C0
+C1
+#
+analogLib vdc symbol
+V2
+V0
+V3
+V1
+#
+analogLib idc symbol
+I4
+I1
+#ISCELL
+analogLib gnd symbol
+I0
+I2

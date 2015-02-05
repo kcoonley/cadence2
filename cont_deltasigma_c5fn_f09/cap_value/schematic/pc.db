@@ -1,0 +1,9 @@
+#
+amis500cxatxx pipc symbol
+C0
+#
+analogLib vsin symbol
+V0
+#ISCELL
+analogLib gnd symbol
+I0

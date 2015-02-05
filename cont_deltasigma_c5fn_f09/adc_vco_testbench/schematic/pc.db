@@ -1,0 +1,36 @@
+#
+analogLib vpwl symbol
+V0
+#
+cont_deltasigma_c5fn_f09 ring_osc_9_cs symbol
+I14
+#
+cont_deltasigma_c5fn_f09 adc_lp symbol
+I13
+#
+ahdlLib sampler symbol
+I28
+#
+analogLib idc symbol
+I9
+I4
+I1
+I5
+I6
+#
+analogLib cap symbol
+C2
+C3
+#
+analogLib vdc symbol
+V6
+V7
+V4
+V3
+V5
+#ISCELL
+analogLib gnd symbol
+I15
+I11
+I7
+I8

@@ -1,0 +1,8 @@
+#
+ahdlLib jk_clk_ff symbol
+I3
+I2
+I1
+#
+ahdlLib d_ff symbol
+I0

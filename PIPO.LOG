@@ -1,0 +1,192 @@
+
+********************************************************************************
+Product   : Virtuoso(R) STREAM In
+Program   : @(#)$CDS: pipo.exe version 5.1.0 06/20/2007 02:15 (cicln03) $
+SubVersion: sub-version 5.10.41_USR5.90.69
+Started at: 29-Aug-2011  14:31:13
+User Name : aa
+Host Name : dsil9.ee.duke.edu
+Directory : /home/photinia/homes/aa/cadence2
+CADENCE Design Systems, Inc.
+********************************************************************************
+
+Stream file   : /home/photinia/homes/aa/cadence2/regulator_oscillator_qam16_MOSIS.gds
+
+Reading Stream File ...
+VERSION      : 5
+MODIFICATION : Mon Aug 29 14:16:14 2011
+ACCESS       : Mon Aug 29 14:26:55 2011
+GDS LIBRARY  : REGULATOR_OSCILLATOR_C5FN_F11.DB
+U-UNIT/DBU   : 0.001000000000
+METRIC/DBU   : 0.000000001000
+
+TARGET LIBRARY PATH: /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11_gds
+
+     1. scanning cellview (ring_osc_5_en_lvs layout)
+     2. scanning cellview (photodiode_4_lvs layout)
+     3. scanning cellview (photodiode_100_lvs layout)
+     4. scanning cellview (qam16_modulator_lvs layout)
+     5. scanning cellview (nor_3 layout)
+     6. scanning cellview (buf layout)
+     7. scanning cellview (nor_3_buf layout)
+     8. scanning cellview (nand layout)
+     9. scanning cellview (inv layout)
+    10. scanning cellview (decoder4_i layout)
+    11. scanning cellview (decoder16_buf_lvs layout)
+    12. scanning cellview (decoder16_plus_qam16_lvs layout)
+    13. scanning cellview (rc_clamp_esd_lvs layout)
+    14. scanning cellview (diode_esd_lvs layout)
+    15. scanning cellview (ring_osc_5 layout)
+    16. scanning cellview (regulator_lvs layout)
+    17. scanning cellview (bandgap_lvs layout)
+    18. scanning cellview (rf_rectifier_lvs layout)
+    19. scanning cellview (pad74 layout)
+    20. scanning cellview (regulator_oscillator_qam16_mosis layout)
+
+PASS 2...
+     1. translating cellview (pad74 layout)
+WARNING (416): Acute angle polygon encountered at layer `63' and startpoint `6000,6000'.
+WARNING (416): Acute angle polygon encountered at layer `63' and startpoint `0,0'.
+     2. translating cellview (rf_rectifier_lvs layout)
+     3. translating cellview (bandgap_lvs layout)
+     4. translating cellview (regulator_lvs layout)
+     5. translating cellview (ring_osc_5 layout)
+     6. translating cellview (diode_esd_lvs layout)
+     7. translating cellview (rc_clamp_esd_lvs layout)
+     8. translating cellview (inv layout)
+     9. translating cellview (nand layout)
+    10. translating cellview (decoder4_i layout)
+    11. translating cellview (buf layout)
+    12. translating cellview (nor_3 layout)
+    13. translating cellview (nor_3_buf layout)
+    14. translating cellview (decoder16_buf_lvs layout)
+    15. translating cellview (qam16_modulator_lvs layout)
+    16. translating cellview (decoder16_plus_qam16_lvs layout)
+    17. translating cellview (photodiode_100_lvs layout)
+    18. translating cellview (photodiode_4_lvs layout)
+    19. translating cellview (ring_osc_5_en_lvs layout)
+    20. translating cellview (regulator_oscillator_qam16_mosis layout)
+
+			Individual Cell Statistics
+
+CellView          Rectangles Polygons   Paths Ellipses Labels Instances Arrays  Dots
+************************************************************************************
+ring_osc_5_en_lvs/la    1824       19       0       0       4       0       0      0
+photodiode_4_lvs/lay    1456        4       0       0       2       0       0      0
+photodiode_100_lvs/l   25632      100       0       0       2       0       0      0
+qam16_modulator_lvs/   42047       36       0       0      44       0       0      0
+nor_3/layout             166        2       0       0       6       0       0      0
+buf/layout               142        0       0       0       4       0       0      0
+nor_3_buf/layout           3        0       0       0       6       1       1      0
+nand/layout              110        1       0       0       5       0       0      0
+inv/layout                78        0       0       0       4       0       0      0
+decoder4_i/layout         74        0       0       0       8       0       2      0
+decoder16_buf_lvs/la     511       10       0       0      23       0       4      0
+decoder16_plus_qam16      11       16       0       0       8       2       0      0
+rc_clamp_esd_lvs/lay    6310       12       0       0       6       0       0      0
+diode_esd_lvs/layout    3392      125       0       0      17       0       0      0
+ring_osc_5/layout       1823       19       0       0       5       0       0      0
+regulator_lvs/layout   34584       57       0       0     488       0       0      0
+bandgap_lvs/layout     15962       81       0       0     177       0       0      0
+rf_rectifier_lvs/lay   12038       98       0       0      21       0       0      0
+pad74/layout            1019        2       0       0       0       0       0      0
+regulator_oscillator     539       92       0       0      25      27       4      0
+
+
+                    Statistics Of Layers
+
+
+Cadence    Cadence    Stream   Stream
+ Layer     Purpose    Layer   Datatype Rectangles Polygons Paths   Ellipses   Labels   Dots
+--------------------------------------------------------------------------------------------
+NPLS       drawing    5         0         5640     56       0        0        0        0       
+CAPM       drawing    56        0         22       0        0        0        22       0       
+POLY2      drawing    26        0         5949     0        0        0        0        0       
+M1         drawing    9         0         23789    247      0        0        39       0       
+VIA2       drawing    12        0         669      0        0        0        0        0       
+M3         drawing    13        0         235      40       0        0        64       0       
+HIRES      drawing    27        0         1976     0        0        0        0        0       
+NFIELD     drawing    3         0         249      26       0        0        0        0       
+VIA        drawing    10        0         15029    0        0        0        0        0       
+M2         drawing    11        0         1828     122      0        0        34       0       
+PAD        drawing    14        0         1        0        0        0        0        0       
+TEXTM3     drawing    63        0         0        2        0        0        0        0       
+DREC       drawing    100       0         26       0        0        0        26       0       
+TERM       drawing    46        0         3952     0        0        0        0        0       
+TUB        drawing    1         0         249      26       0        0        0        0       
+PPLS       drawing    6         0         5623     73       0        0        0        0       
+CNT        drawing    8         0         70800    0        0        0        0        0       
+RES        drawing    55        0         670      0        0        0        670      0       
+POLY1      drawing    4         0         3001     0        0        0        0        0       
+DIF        drawing    2         0         8013     82       0        0        0        0       
+
+
+   Summary Of Objects
+
+------------------------
+  147721 Rectangles
+     674 Polygons
+       0 Paths
+       0 Ellipses
+     855 Labels
+      30 Instances
+      11 Arrays
+      20 Cells
+       0 Dots
+
+
+00:00:12 Elapsed time
+00:00:01 CPU time
+
+    5074 Kbytes of memory
+
+*** There were 0 error and 2 warning messages ***
+
+The setup file's contents :
+
+streamInKeys = list(nil
+	'runDir			"."
+	'inFile			"/home/photinia/homes/aa/cadence2/regulator_oscillator_qam16_MOSIS.gds"
+	'primaryCell		"regulator_oscillator_qam16_MOSIS"
+	'libName		"regulator_oscillator_c5fn_f11_gds"
+	'techfileName		"/home/photinia/homes/aa/PDK/AMIS_C5FN/lib/amis500cx/physical/dfii/amis500cxakxx/Rev2.6/techfile.tf"
+	'scale			0.001000
+	'units			"micron"
+	'errFile		"PIPO.LOG"
+	'refLib			nil
+	'hierDepth		20
+	'maxVertices		1024
+	'checkPolygon		t
+	'snapToGrid		nil
+	'arrayToSimMosaic	t
+	'caseSensitivity	"lower"
+	'textCaseSensitivity	"preserve"
+	'zeroPathToLine		"lines"
+	'convertNode		"ignore"
+	'keepPcell	nil
+	'replaceBusBitChar	nil
+	'skipUndefinedLPP	nil
+	'ignoreBox		nil
+	'mergeUndefPurposToDrawing		nil
+	'reportPrecision	nil
+	'keepStreamCells		nil
+	'attachTechfileOfLib		""
+	'runQuiet		nil
+	'noWriteExistCell		t
+	'NOUnmappingLayerWarning		nil
+	'comprehensiveLog		nil
+	'ignorePcellEvalFail		nil
+	'appendDB		nil
+	'genListHier		nil
+	'skipDbLocking		nil
+	'skipPcDbGen		nil
+	'cellMapTable		""
+	'layerTable		""
+	'textFontTable		""
+	'restorePin		0
+	'propMapTable		""
+	'propSeparator		","
+	'userSkillFile		""
+	'rodDir			""
+	'refLibOrder			""
+)

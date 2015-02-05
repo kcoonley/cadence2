@@ -1,0 +1,34 @@
+#
+regulator_oscillator_c5fn_f11 decoder16 symbol
+I18
+#
+analogLib vdc symbol
+V7
+V1
+V5
+V4
+V3
+V2
+#
+analogLib cap symbol
+C15
+C14
+C13
+C9
+C8
+C4
+C12
+C7
+C3
+C2
+C6
+C5
+C10
+C11
+C1
+C0
+#ISCELL
+analogLib gnd symbol
+I5
+I4
+I3

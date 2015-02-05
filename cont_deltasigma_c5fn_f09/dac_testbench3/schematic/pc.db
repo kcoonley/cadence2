@@ -1,0 +1,18 @@
+#
+analogLib cap symbol
+C0
+#
+analogLib idc symbol
+I0
+#
+cont_deltasigma_c5fn_f09 dac_ref_current2 symbol
+I11
+#
+analogLib vpulse symbol
+V24
+V20
+V22
+V23
+#ISCELL
+analogLib gnd symbol
+I3

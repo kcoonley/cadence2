@@ -1,0 +1,33 @@
+#
+analogLib vdc symbol
+V2
+V1
+V0
+#
+amis500cxatxx pipc symbol
+C1
+#
+amis500cxatxx epm symbol
+MP12
+MP20
+MP25
+MP32
+MP39
+#
+amis500cxatxx enm symbol
+MN23
+MN24
+MN27
+MN62
+MN64
+#ISCELL
+analogLib gnd symbol
+I1
+#ISCELL
+basic ipin symbol
+PIN1
+PIN2
+PIN0
+#ISCELL
+basic opin symbol
+PIN3

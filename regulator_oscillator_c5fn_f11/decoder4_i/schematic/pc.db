@@ -1,0 +1,23 @@
+#
+regulator_oscillator_c5fn_f11 NAND symbol
+I5
+I4
+I3
+I2
+#
+regulator_oscillator_c5fn_f11 INV symbol
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN5
+PIN4
+PIN3
+PIN2
+#ISCELL
+basic iopin symbolr
+PIN6

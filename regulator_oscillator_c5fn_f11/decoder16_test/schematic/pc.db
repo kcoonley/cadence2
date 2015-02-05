@@ -1,0 +1,38 @@
+#
+regulator_oscillator_c5fn_f11 decoder16_buf_LVS symbol
+I19
+#
+regulator_oscillator_c5fn_f11 BIT_stream_rand symbol
+I11
+#
+analogLib vdc symbol
+V1
+#
+analogLib cap symbol
+C15
+C14
+C13
+C9
+C8
+C4
+C12
+C7
+C3
+C2
+C6
+C5
+C10
+C11
+C1
+C0
+#
+analogLib vpulse symbol
+V4
+V3
+V2
+V0
+#ISCELL
+analogLib gnd symbol
+I5
+I4
+I3

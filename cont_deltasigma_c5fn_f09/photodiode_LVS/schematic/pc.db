@@ -1,0 +1,9 @@
+#
+analogLib pdiode symbol
+D0
+#ISCELL
+analogLib gnd symbol
+I0
+#ISCELL
+basic opin symbol
+PIN0

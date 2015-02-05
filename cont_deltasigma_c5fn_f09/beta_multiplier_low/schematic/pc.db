@@ -1,0 +1,38 @@
+#
+amis500cxatxx vpb20u symbol
+Q0
+#
+analogLib vdc symbol
+Icurrent
+V2
+V1
+#
+analogLib idc symbol
+I2
+#
+analogLib res symbol
+R1
+R2
+#
+amis500cxatxx epm symbol
+MP7
+MP8
+MP2
+MP1
+#
+amis500cxatxx enm symbol
+MN33
+MN6
+MN7
+MN31
+MN30
+MN3
+MN0
+#ISCELL
+analogLib gnd symbol
+I9
+I10
+I8
+#ISCELL
+basic iopin symbolr
+PIN3

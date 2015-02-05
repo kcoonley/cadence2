@@ -1,0 +1,50 @@
+#
+regulator_oscillator_c5fn_f11 NOR_3_buf symbol
+I77
+I69
+I65
+I74
+I73
+I62
+I66
+I71
+I72
+I70
+I68
+I67
+I75
+I76
+I64
+I63
+#
+regulator_oscillator_c5fn_f11 decoder4_i symbol
+I29
+I28
+#ISCELL
+basic ipin symbol
+PIN15
+PIN13
+PIN14
+PIN1
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN6
+#ISCELL
+basic opin symbol
+PIN2
+PIN3
+PIN4
+PIN5
+PIN7
+PIN8
+PIN9
+PIN10
+PIN17
+PIN18
+PIN11
+PIN19
+PIN20
+PIN21
+PIN12
+PIN16

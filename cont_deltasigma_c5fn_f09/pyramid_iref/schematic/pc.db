@@ -1,0 +1,84 @@
+#
+amis500cxatxx epm symbol
+MP24
+MP25
+MP23
+MP26
+MP27
+MP22
+#
+analogLib idc symbol
+I0
+I2
+I1
+#
+amis500cxatxx enm symbol
+MN5
+MN1
+MN3
+MN4
+MN26
+MN31
+MN27
+MN29
+MN0
+MN30
+MN2
+MN24
+MN25
+MN28
+#
+ahdlLib nor_gate symbol
+I82
+#
+analogLib vccs symbol
+G8
+#
+ahdlLib sampler symbol
+I28
+#
+analogLib vdc symbol
+V11
+V15
+V24
+V6
+V25
+#
+analogLib vpulse symbol
+V0
+#
+ahdlLib comparator symbol
+I26
+#
+ahdlLib sah_ideal symbol
+I9
+#
+analogLib cap symbol
+C9
+C7
+#
+analogLib res symbol
+R14
+R3
+#ISCELL
+analogLib gnd symbol
+I83
+I18
+I89
+I84
+I21
+I22
+I85
+I86
+I23
+I46
+I48
+I36
+I90
+I27
+I11
+I12
+I91
+#ISCELL
+basic ipin symbol
+PIN13

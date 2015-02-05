@@ -1,0 +1,62 @@
+#
+amis500cxatxx hipor symbol
+R0
+R1
+R2
+R3
+R4
+#
+amis500cxatxx enm symbol
+MN29
+MN30
+MN9
+MN35
+MN36
+MN41
+MN42
+MN11
+MN43
+MN13
+MN10
+MN12
+MN44
+MN0
+#
+amis500cxatxx pipc symbol
+C16
+C15
+C17
+C10
+C12
+C11
+C8
+C9
+C14
+C13
+#
+amis500cxatxx schd symbol
+D14
+D11
+D8
+D10
+D9
+D7
+D2
+D5
+D1
+D6
+D4
+D3
+#ISCELL
+analogLib gnd symbol
+I0
+I7
+I1
+#ISCELL
+basic opin symbol
+PIN9
+PIN7
+#ISCELL
+basic ipin symbol
+PIN6
+PIN2

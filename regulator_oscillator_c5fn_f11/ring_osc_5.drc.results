@@ -1,0 +1,19 @@
+ring_osc_5 1000
+M2DENS
+1 1 2 Aug 20 20:42:35 2011                     
+Rule File Pathname: /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11/_drc.ctrl_
+M2DENS -- Metal 2 minimum level density is 30%.  If less dummy structure should be added. < .3
+p 1 4
+627850 -482850
+969000 -482850
+969000 -305050
+627850 -305050
+M3DENS
+1 1 2 Aug 20 20:42:35 2011                     
+Rule File Pathname: /home/photinia/homes/aa/cadence2/regulator_oscillator_c5fn_f11/_drc.ctrl_
+M3DENS -- Metal 3 minimum level density is 30%.  If less dummy structure should be added. < .3
+p 1 4
+627850 -482850
+969000 -482850
+969000 -305050
+627850 -305050

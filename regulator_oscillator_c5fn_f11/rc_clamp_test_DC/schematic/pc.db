@@ -1,0 +1,9 @@
+#
+regulator_oscillator_c5fn_f11 rc_clamp_ESD_LVS symbol
+I8
+#
+analogLib vdc symbol
+V0
+#ISCELL
+analogLib gnd symbol
+I1

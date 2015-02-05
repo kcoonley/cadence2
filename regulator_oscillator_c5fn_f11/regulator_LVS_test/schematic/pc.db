@@ -1,0 +1,19 @@
+#
+analogLib ipulse symbol
+I1
+#
+power_regulator_c5fn_s11 regulator_LVS symbol
+I6
+#
+analogLib idc symbol
+I4
+#
+analogLib cap symbol
+C0
+#
+analogLib vdc symbol
+V5
+V6
+#ISCELL
+analogLib gnd symbol
+I0

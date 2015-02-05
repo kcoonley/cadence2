@@ -1,0 +1,19 @@
+#
+analogLib vdc symbol
+V0
+#
+cont_deltasigma_c5fn_f09 beta_multiplier_amp symbol
+I6
+#
+analogLib vpulse symbol
+V17
+V20
+V19
+V18
+#ISCELL
+analogLib gnd symbol
+I3
+#ISCELL
+basic opin symbol
+PIN1
+PIN0

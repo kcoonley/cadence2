@@ -1,0 +1,71 @@
+#
+amis500cxapmx pad74 layout
+I1419
+I1417
+I1418
+I1416
+#
+regulator_oscillator_c5fn_f11 ring_osc_5_EN_LVS layout
+I8
+#
+regulator_oscillator_c5fn_f11 photodiode_4_LVS layout
+I6
+I1398
+#
+regulator_oscillator_c5fn_f11 photodiode_100_LVS layout
+I4
+#
+regulator_oscillator_c5fn_f11 decoder16_plus_qam16_LVS layout
+I5
+#
+regulator_oscillator_c5fn_f11 rc_clamp_ESD_LVS layout
+I9
+I7
+I1316
+I1344
+I1388
+I1395
+#
+regulator_oscillator_c5fn_f11 diode_ESD_LVS layout
+I1375
+I1317
+I1386
+I1313
+I1345
+I1385
+I1353
+I1356
+I1391
+I1392
+I1382
+I1396
+#
+regulator_oscillator_c5fn_f11 ring_osc_5 layout
+I1376
+#
+regulator_oscillator_c5fn_f11 regulator_LVS layout
+I3
+#
+regulator_oscillator_c5fn_f11 bandgap_LVS layout
+I2
+#
+regulator_oscillator_c5fn_f11 rf_rectifier_LVS layout
+I1
+#ISCELL
+amis500cxakxx VIA symbolic
+I1343
+I1342
+I1341
+I1394
+I1393
+I1405
+I1406
+#ISCELL
+amis500cxakxx VIA2 symbolic
+I10
+I1399
+I1400
+I1401
+I1402
+I1403
+I1404

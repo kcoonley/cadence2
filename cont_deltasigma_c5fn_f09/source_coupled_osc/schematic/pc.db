@@ -1,0 +1,33 @@
+#
+analogLib res symbol
+R1
+R0
+#
+analogLib idc symbol
+I0
+I1
+#
+analogLib cap symbol
+C1
+#
+amis500cxatxx epm symbol
+MP44
+MP43
+MP38
+MP37
+#
+amis500cxatxx enm symbol
+MN18
+MN38
+MN39
+#ISCELL
+analogLib gnd symbol
+I28
+I17
+#ISCELL
+basic ipin symbol
+PIN0
+PIN3
+#ISCELL
+basic opin symbol
+PIN2

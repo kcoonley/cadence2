@@ -1,0 +1,18 @@
+#
+regulator_oscillator_c5fn_f11 INV symbol
+I40
+I30
+#
+regulator_oscillator_c5fn_f11 NOR_3 symbol
+I19
+#ISCELL
+basic ipin symbol
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN3
+#ISCELL
+basic opin symbol
+PIN4

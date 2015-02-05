@@ -1,0 +1,23 @@
+#
+power_regulator_c5fn_s11 rf_rectifier_LVS symbol
+I0
+#
+analogLib cap symbol
+C1
+C0
+#
+analogLib idc symbol
+I1
+#
+analogLib vdc symbol
+V1
+#
+analogLib vsin symbol
+V0
+#
+analogLib res symbol
+R0
+#ISCELL
+analogLib gnd symbol
+I2
+I3

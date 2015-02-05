@@ -1,0 +1,77 @@
+// VCO Jitter Simulation and Its Comparison with Measurement
+// Kenneth S. Kundert
+
+// Voltage controlled oscillator with Gaussian jitter
+
+// Added uniform jitter capability
+
+
+//'include "discipline.h"
+//'include "constants.h"
+
+`include "disciplines.vams"
+`include "constants.vams"
+
+(* instrument_module *) module vco_gaus_jitter (out, in);
+
+input in; output out; electrical out, in;
+
+parameter real Vmin=0;
+parameter real Vmax=Vmin+1 from (Vmin:inf);
+parameter real Fmin=1M from (0:inf);
+parameter real Fmax=2*Fmin from (Fmin:inf);
+parameter real ratio=1 from [1:inf);
+parameter Vlo=-1, Vhi=1;
+parameter real tt=0.01*ratio/Fmax from (0:inf);
+parameter real jitter=0.01/1M from [0:0.25/Fmax);
+parameter real ttol=1e-8/Fmax from (0:1*ratio/Fmax);
+
+real freq, phase, dT;
+integer n, seed;
+
+analog begin
+	@(initial_step) begin
+		seed=-493;
+	end
+
+// compute the freq from the input voltage
+freq = (V(in) - Vmin)*(Fmax - Fmin)/(Vmax - Vmin) + Fmin;
+
+// bound the frequency (this is optional)
+if (freq > Fmax) freq = Fmax;
+if (freq < Fmin) freq = Fmin;
+
+// add the phase noise
+freq = freq/ratio;
+freq = freq/(1 + dT*freq);
+
+// phase is the integral of 
+// the freq modulo 2 pi
+phase = 2*`M_PI*idtmod(freq, 0.0, 1, -0.5);
+
+//idtmod(expr, ic, modulus, offset, abstol | nature)
+// offset < idtmod_out < offset + modulus
+
+
+// update jitter twice per period
+@(cross(phase + `M_PI/2, +1, ttol) or 
+cross(phase - `M_PI/2, +1, ttol)) begin
+
+// add a Gaussian jitter
+	dT = sqrt(2*ratio) * jitter * $dist_normal(seed, 0,1);
+
+// add a uniform jitter
+//	dT = sqrt(2*ratio) * jitter * $dist_uniform(seed,-1,1);
+
+	n = (phase >= -`M_PI/2) && (phase < `M_PI/2);
+
+end
+
+// generate the output
+V(out) <+ transition(n? Vhi: Vlo, 0, tt);
+end
+
+endmodule
+
+
+	
